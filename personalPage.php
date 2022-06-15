@@ -19,12 +19,12 @@
       </div>
    </header>
 
-<div class="container">
-<div class="card mt-5 p-3">
-   <h1>Successful authorization</h1>
-   <a href="index.php">Exit</a>
-</div>
-</div>
+   <div class="container">
+      <div class="card mt-5 p-3">
+         <h1>Successful authorization</h1>
+         <a href="index.php">Exit</a>
+      </div>
+   </div>
 
 </body>
 

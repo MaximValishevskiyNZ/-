@@ -47,8 +47,8 @@ session_start();
 
       <form action="includes\signUp_inc.php" method="POST">
          <h2 class="mb-3 mt-5">Sign up</h2>
-         <p class='text-warning'><?php if (isset($_SESSION['message'])) { echo $_SESSION['message']; }?></p> 
-         <p class='text-warning'><?php if (isset($_SESSION['email'])) { echo $_SESSION['email']; }?></p> 
+         <p class='text-warning'><?php if (isset($_SESSION['message'])) { echo $_SESSION['message']; }?></p>
+         <p class='text-warning'><?php if (isset($_SESSION['email'])) { echo $_SESSION['email']; }?></p>
          <p class='text-warning'><?php if (isset($_SESSION['pwd'])) { echo $_SESSION['pwd']; }?></p>
          <div class="mb-3">
             <label for="username" class="form-label">Username</label>
